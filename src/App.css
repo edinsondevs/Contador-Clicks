@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html,
+.body {
+    background-color: #1b1b32
+}
+
+.contenedor-principal{
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+}
+.contenedor .logo {
+    height: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.contenedor .contador {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.contenedor_display {
+    display: flex;
+    justify-content: center;
+    padding: 75px;
+}
+
+
+.display {
+    border: 8px solid white;
+    background-color: transparent;
+    text-align: center;
+    font-size: 44px;
+    height: 150px;
+    width: 200px;
+    color: rgb(52, 220, 47);
+}

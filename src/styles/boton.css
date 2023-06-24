@@ -1,0 +1,18 @@
+.btn-reiniciar,
+.btn-clic{
+    padding: 25px 35px;
+    background-color: transparent;
+    color: white !important;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin: 15px;
+}
+
+
+.btn-reiniciar:hover,
+.btn-clic:hover{
+    background-color: rgba(53, 179, 15, 0.866);
+    color: black !important;
+    box-shadow: 0 0 5px 7px rgba(255, 255,255, 0.83);
+}
+
